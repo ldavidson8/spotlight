@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1249)"><rect width="1000" height="1000" fill="#000000"></rect><g transform="matrix(1.8711018711018712,0,0,1.8711018711018712,165.07276507276504,50)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="358" height="481"><svg width="358" height="481" viewBox="0 0 358 481" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.52127 450.171L112.525 2.28444C112.855 0.943076 114.058 0 115.439 0H230.236C231.589 0 232.774 0.905226 233.13 2.21018L355.357 450.097C355.878 452.005 354.441 453.887 352.463 453.887H5.43468C3.48809 453.887 2.05697 452.062 2.52127 450.171Z" fill="#E3E3E3"></path>
+<g filter="url(#filter0_f_70_64)">
+<ellipse cx="179" cy="449.5" rx="178" ry="30.5" fill="white"></ellipse>
+</g>
+<defs>
+<filter id="filter0_f_70_64" x="0.6" y="418.6" width="356.8" height="61.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+<feGaussianBlur stdDeviation="0.2" result="effect1_foregroundBlur_70_64"></feGaussianBlur>
+</filter>
+<clipPath id="SvgjsClipPath1249"><rect width="1000" height="1000" x="0" y="0" rx="150" ry="150"></rect></clipPath></defs>
+</svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1250)"><rect width="1000" height="1000" fill="#000000"></rect><g transform="matrix(1.8711018711018712,0,0,1.8711018711018712,165.07276507276504,50)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="358" height="481"><svg width="358" height="481" viewBox="0 0 358 481" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.52127 450.171L112.525 2.28444C112.855 0.943076 114.058 0 115.439 0H230.236C231.589 0 232.774 0.905226 233.13 2.21018L355.357 450.097C355.878 452.005 354.441 453.887 352.463 453.887H5.43468C3.48809 453.887 2.05697 452.062 2.52127 450.171Z" fill="#E3E3E3"></path>
+<g filter="url(#filter0_f_70_64)">
+<ellipse cx="179" cy="449.5" rx="178" ry="30.5" fill="white"></ellipse>
+</g>
+<defs>
+<filter id="filter0_f_70_64" x="0.6" y="418.6" width="356.8" height="61.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+<feGaussianBlur stdDeviation="0.2" result="effect1_foregroundBlur_70_64"></feGaussianBlur>
+</filter>
+<clipPath id="SvgjsClipPath1250"><rect width="1000" height="1000" x="0" y="0" rx="150" ry="150"></rect></clipPath></defs>
+</svg></svg></g></g></svg></g></svg>
