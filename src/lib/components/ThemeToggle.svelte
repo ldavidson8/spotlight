@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { RadioGroup } from 'bits-ui';
-	import SunIcon from '~icons/lucide/sun';
-	import MoonIcon from '~icons/lucide/moon';
+	import IconSun from '~icons/ph/sun-bold';
+	import IconMoon from '~icons/ph/moon-bold';
 	import { themeStore } from '$lib/stores/theme.svelte';
 	import * as Tooltip from '$lib/components/ui/tooltip/index.js';
 	import { onMount } from 'svelte';
@@ -49,20 +49,20 @@
 							value="dark"
 							class="flex h-[22px] w-6 items-center justify-center rounded-sm text-muted-foreground transition-colors duration-200 data-[state=checked]:bg-muted data-[state=checked]:text-foreground"
 						>
-							<MoonIcon class="size-3 *:fill-current" />
+							<IconMoon class="size-3 *:fill-current" />
 						</RadioGroup.Item>
 
 						<RadioGroup.Item
 							value="light"
 							class="flex h-[22px] w-6 items-center justify-center rounded-sm text-muted-foreground transition-colors duration-200 data-[state=checked]:bg-neutral-200 data-[state=checked]:text-foreground"
 						>
-							<SunIcon class="size-3 *:fill-current" />
+							<IconSun class="size-3 *:fill-current" />
 						</RadioGroup.Item>
 					</RadioGroup.Root>
 				</div>
 			{/snippet}
 		</Tooltip.Trigger>
-		<Tooltip.Content sideOffset={8} showArrow={false}>
+		<Tooltip.Content sideOffset={8}>
 			<span>
 				Toggle theme&nbsp;
 				<kbd

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getMovieById } from '$lib/api/data.remote';
 	import { fade, fly } from 'svelte/transition';
-	import StarIcon from '~icons/lucide/star';
+	import IconStar from '~icons/ph/star-bold';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import { Badge } from '$lib/components/ui/badge/index.js';
 	import { Button } from '$lib/components/ui/button/index.js';
@@ -40,7 +40,7 @@
 			<Card.Content class="space-y-4">
 				<!-- Rating -->
 				<div class="flex items-center gap-2">
-					<StarIcon class="h-5 w-5 text-yellow-500" />
+					<IconStar class="h-5 w-5 text-yellow-500" />
 					<span class="font-medium">{movie.vote_average.toFixed(1)} / 10</span>
 					<span class="text-sm text-muted-foreground">({movie.vote_count} votes)</span>
 				</div>

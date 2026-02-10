@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
 
-	import MenuIcon from '~icons/lucide/menu';
-	import XIcon from '~icons/lucide/x';
-	import SearchIcon from '~icons/lucide/search';
+	import MenuIcon from '~icons/ph/list';
+	import XIcon from '~icons/ph/x';
+	import SearchIcon from '~icons/ph/magnifying-glass';
 	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import CommandSearch from './CommandSearch.svelte';
@@ -108,7 +108,7 @@
 		<div
 			in:fly={{ y: 100, duration: 200 }}
 			out:fly={{ y: 100, duration: 200 }}
-			class="fixed inset-0 flex flex-col justify-center-safe overflow-x-hidden overflow-y-scroll bg-background px-6 pt-8 pb-24 hide-scrollbars"
+			class="hide-scrollbars fixed inset-0 flex flex-col justify-center-safe overflow-x-hidden overflow-y-scroll bg-background px-6 pt-8 pb-24"
 		>
 			<div>
 				<div>

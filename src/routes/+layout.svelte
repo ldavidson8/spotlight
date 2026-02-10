@@ -2,9 +2,9 @@
 	import Header from '$lib/components/Header.svelte';
 	import '../app.css';
 	import Footer from '$lib/components/Footer.svelte';
-	import '@fontsource-variable/geist-mono';
 	import { pwaInfo } from 'virtual:pwa-info';
 	import { onMount } from 'svelte';
+	import { onNavigate } from '$app/navigation';
 
 	onMount(async () => {
 		if (pwaInfo) {
@@ -22,6 +22,17 @@
 	});
 
 	const webManifestLink = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : '');
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 
 	let { children } = $props();
 </script>

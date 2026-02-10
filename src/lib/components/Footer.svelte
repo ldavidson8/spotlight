@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ArrowUpRight from '~icons/lucide/arrow-up-right';
+	import IconCaretUp from '~icons/ph/caret-up-bold';
 	import SimpleIconsGithub from '~icons/simple-icons/github';
 	import ThemeToggle from './ThemeToggle.svelte';
 	const year = new Date().getFullYear();

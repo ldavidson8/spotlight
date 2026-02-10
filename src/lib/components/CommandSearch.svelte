@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import SearchIcon from '~icons/lucide/search';
+	import SearchIcon from '~icons/ph/magnifying-glass';
 
 	import * as Command from '$lib/components/ui/command/index.js';
 

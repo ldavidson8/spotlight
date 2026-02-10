@@ -39,8 +39,7 @@ export default defineConfig({
 						type: 'image/png'
 					}
 				]
-			},
-			devOptions: { enabled: true, type: 'module' }
+			}
 		}),
 		devtoolsJson(),
 		Icons({ compiler: 'svelte' })
