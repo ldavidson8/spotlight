@@ -2,24 +2,61 @@
 @import 'tw-animate-css';
 
 @import '@fontsource-variable/geist-mono';
-@import '@fontsource-variable/playfair-display';
 
 @font-face {
-	font-family: 'Satoshi Variable';
+	font-family: 'Open Runde';
 	src:
-		url('/fonts/Satoshi-Variable.woff2') format('woff2'),
-		url('/fonts/Satoshi-Variable.woff') format('woff');
-	font-weight: 300 900;
-	font-display: swap;
+		url('./fonts/OpenRunde-Regular.woff2') format('woff2'),
+		url('./fonts/OpenRunde-Regular.woff') format('woff');
+	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Runde';
+	src:
+		url('./fonts/OpenRunde-Medium.woff2') format('woff2'),
+		url('./fonts/OpenRunde-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Runde';
+	src:
+		url('./fonts/OpenRunde-Bold.woff2') format('woff2'),
+		url('./fonts/OpenRunde-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Runde';
+	src:
+		url('./fonts/OpenRunde-Semibold.woff2') format('woff2'),
+		url('./fonts/OpenRunde-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Overused Grotesk';
+	src:
+		url('/fonts/OverusedGrotesk-VF.woff2') format('woff2'),
+		url('/fonts/OverusedGrotesk-VF.woff') format('woff');
+	font-weight: 300 900;
 }
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
-	--font-sans: 'Satoshi Variable', sans-serif;
+	--font-sans: 'Overused Grotesk', sans-serif;
 	--font-mono: 'Geist Mono Variable', monospace;
-	--font-serif: 'Playfair Display Variable', serif;
+	--font-serif: 'Georgia', serif;
 	--radius: 0.7rem;
 
 	--background: oklch(0.9711 0.0034 67.7831);

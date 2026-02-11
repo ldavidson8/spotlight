@@ -69,7 +69,6 @@
 	],
 	"dependencies": {
 		"@fontsource-variable/geist-mono": "^5.2.7",
-		"@fontsource-variable/playfair-display": "^5.2.8",
 		"bits-ui": "^2.15.5",
 		"runed": "^0.37.1",
 		"valibot": "^1.2.0"

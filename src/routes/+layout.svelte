@@ -51,7 +51,7 @@
 
 <div class="flex w-full flex-col">
 	<Header />
-	<main class="flex min-h-[calc(100*1dvh)] flex-1 flex-col">
+	<main class="flex min-h-dvh flex-1 flex-col">
 		{@render children?.()}
 	</main>
 	<Footer />
