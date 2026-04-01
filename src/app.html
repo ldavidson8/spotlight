@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="%lang%" dir="%dir%">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" href="%sveltekit.assets%/manifest.json" />
+		<meta name="theme-color" content="#0d1117" />
+		%sveltekit.head%
+		<script>
+			(function () {
+				try {
+					const stored = localStorage.getItem('theme');
+					let resolved;
+
+					if (stored === 'dark' || stored === 'light') {
+						resolved = stored;
+					} else {
+						// 'auto', null, or any invalid value → resolve from system
+						resolved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+					}
+
+					document.documentElement.setAttribute('data-theme', resolved);
+				} catch (e) {
+					// localStorage blocked or unavailable — fall back to light
+					document.documentElement.setAttribute('data-theme', 'light');
+				}
+			})();
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
